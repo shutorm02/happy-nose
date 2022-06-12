@@ -89,4 +89,6 @@ sw.*
 # Vim swap files
 *.swp
 
+# Firebase init & deoloy
 .github/
+.firebase
