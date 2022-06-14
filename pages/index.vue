@@ -1,10 +1,10 @@
 <template>
-  <div class="container mx-auto mt-10 flex place-content-center">
+  <div class="container mx-auto mt-10 flex justify-center">
     <div class="relative">
-      <div class="face flex place-content-center mt-10 pt-20">
+      <div class="mt-10 pt-20">
         <face></face>
       </div>
-      <div id="fore-foot" class="flex place-content-center absolute inset-x-0 bottom-0 pb-5">
+      <div id="fore-foot" class="flex justify-center absolute inset-x-0 bottom-0 pb-5">
         <fore-foot></fore-foot>
       </div>
     </div>
