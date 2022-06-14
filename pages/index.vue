@@ -1,10 +1,12 @@
 <template>
-  <div class="container mx-auto mt-10 px-5 h-640 w-360">
-    <div class="face text-center">
-      <face></face>
-    </div>
-    <div id="fore-foot" class="text-center">
-      <fore-foot></fore-foot>
+  <div class="container mx-auto mt-10 flex place-content-center">
+    <div class="relative">
+      <div class="face flex place-content-center mt-10 pt-20">
+        <face></face>
+      </div>
+      <div id="fore-foot" class="flex place-content-center absolute inset-x-0 bottom-0 pb-5">
+        <fore-foot></fore-foot>
+      </div>
     </div>
   </div>
 </template>
@@ -48,5 +50,9 @@ export default {
 </script>
 
 <style>
+.container {
+  height: 640px;
+  width: 360px;
+}
 
 </style>
