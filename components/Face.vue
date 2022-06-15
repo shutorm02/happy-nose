@@ -43,7 +43,7 @@ export default {
       }, 100)
     setTimeout(function() {
       eyes.innerHTML = blink0
-      }, 150)
+      }, 200)
     setTimeout(function() {
       eyes.innerHTML = blink50
       }, 400)
