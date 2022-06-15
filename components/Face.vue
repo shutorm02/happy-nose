@@ -40,10 +40,10 @@ export default {
         
     setTimeout(function() {
       eyes.innerHTML = blink50
-      }, 100)
+      }, 50)
     setTimeout(function() {
       eyes.innerHTML = blink0
-      }, 200)
+      }, 100)
     setTimeout(function() {
       eyes.innerHTML = blink50
       }, 400)
